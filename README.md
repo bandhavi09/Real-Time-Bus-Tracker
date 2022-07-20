@@ -1,12 +1,34 @@
 # Real-Time-Bus-Tracker
-## Real-Time-Bus-Tracker Project
+## Real-Time-Bus-Tracker Exercise
 
-In this repository we have: index.html, styles.css, mapanimation.js.
-In index.html inside head tag write title and the write script src which uses javascript for images etc.
-Then write css link which connects HTML and CSS.
-Create div id = "map", inside map div create div class = "map-overlay top" and inside map-overlay top class we have to create button which is show stops between MIT and Harvard.
-Write a link which connects HTML and JavaScript.
-In styles.css write code for body, map, map-overlay.
-In mapanimation.js we have to create array busStops with coordinates and get accessToken from mapbox and write here.
-Create new mapboxg1.Map({}) and add marker to the map at the first coordinates in the array busStops.
-Set counter, use move, setTimeout functions.
+# Description
+
+Using the MBTA bus data to determine stops between Harvard and MIT with an animated marker on the map to highlight the bus routes.
+
+# Installation
+
+Use this command to install git clone:
+
+https://github.com/bandhavianugu/Real-Time-Bus-Tracker
+
+# Working
+
+## Step 1:
+
+Create a Mapbox account and get the access token. Add the access token to the mapboxgl instance defined in the mapanimation.js.
+
+## Step 2:
+
+Create a marker and add it to the map using the mapboxgl pre-built functions.
+
+## Step 3:
+
+The funtion move() is called when we click on button "show stops between MIT and Harvard". This is how you can start the marker animation. If te code work you should able to see a marker moving from one stop to the next stop until it reaches the last one on the map.
+
+# Road map
+
+I will learn advanced concept of Bootstrap, React and Node.
+
+# License information
+
+MIT License
